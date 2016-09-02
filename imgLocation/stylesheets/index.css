@@ -1,0 +1,73 @@
+body{
+	padding: 0;
+	margin: 0;
+
+}
+.wrp{
+	margin:0 auto;
+	position: relative; 
+}
+#container{
+	margin: auto;
+}
+.box{
+	position: relative;
+	float: left;
+	}
+.content{
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0  5px #CCC;
+	border-radius: 5px;
+}
+.content img{
+	width: 210px; 
+	height: auto;
+	
+}
+@media screen and (max-width:500px ){
+    .wrp {
+        width: 242px;
+        /*242px每个*/
+    }
+}
+@media screen and (min-width:501px ) and (max-width: 750px) {
+    .wrp {
+        width: 484px;
+        /*242px每个*/
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    .wrp {
+        width: 726px;
+        /*242px每个*/
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    .wrp {
+        width: 968px;
+        /*242px每个*/
+    }
+}
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .wrp {
+        width:1210px;
+        /*242px每个*/
+    }
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1700px){
+    .wrp {
+        width: 1452px;
+        /*242px每个*/
+    }
+}
+@media screen and (min-width: 1701px) and (max-width: 2000px){
+    .wrp {
+        width: 1694px;
+        /*242px每个*/
+    }
+}

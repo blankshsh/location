@@ -1,0 +1,60 @@
+/*导航页*/
+
+.logo,
+.Dashboard,
+.Analytics,
+.Media,
+.Comments,
+.Widgets,
+.Planner,
+.Reports,
+.Directions {
+    height: 90px;
+    width: 110px;
+    background: url(../images/leftnav.png);
+    float: left;
+}
+
+.Dashboard {
+    background-position: 0 -90px;
+}
+
+.Analytics {
+    background-position: 0 -180px;
+}
+
+.Media {
+    background-position: 0 -270px;
+}
+
+.Comments {
+    background-position: 0 -360px;
+}
+
+.Widgets {
+    background-position: 0 -450px;
+}
+
+.Planner {
+    background-position: 0 -540px;
+}
+
+.Reports {
+    background-position: 0 -630px;
+}
+
+.Directions {
+    background-position: 0 -720px;
+}
+
+@media screen and (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .sidebar2 {
+        display: none;
+    }
+}
+

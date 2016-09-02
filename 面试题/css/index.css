@@ -1,0 +1,19 @@
+h2{
+    background-color: #C0C0C0;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    background: #000;
+    color: #FFF;
+}
+/*设置H1H2样式*/
+.color{
+    background: #000;
+    color: #FFF;
+    text-decoration: none;
+}
+.color a{
+    color: #FFF;
+}
+/*链接颜色*/

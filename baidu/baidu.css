@@ -1,0 +1,463 @@
+html,
+body {
+    height: 100%;
+    _zoom: 1;
+    *zoom: 1;
+}
+
+body {
+    font: 12px arial;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper1 {
+    position: relative;
+    min-height: 600px;
+    min-width: 810px;
+    height: 100%;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.header .nav {
+    float: right;
+    margin: 19px 0 5px 0;
+    padding: 0 96px 0 0;
+}
+
+.header .nav a {
+    margin-left: 20px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+/*    隐藏链接下划线*/
+}
+
+.header a:hover {
+    /*设置鼠标放上字体的颜色*/
+    color: #00C;
+}
+
+.header .nav .more {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    /*行高*/
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    /*隐藏多余样式*/
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+    /*取消下划线*/
+}
+
+.more:hover {
+    color: #FFFFFF;
+}
+
+
+/*设置头部字体颜色*/
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 38.2%;
+    text-align: center;
+}
+
+.content .search-form {
+    /*浮动*/
+    position: relative;
+    height: 191px;
+    top: -191px;
+}
+
+
+/*设置div大小定位*/
+
+.content .input {
+    width: 539px;
+    height: 28px;
+    border: 1px solid #DDD;
+    padding: 3px 0 3px 7px;
+    border-right-width: 0;
+    vertical-align: middle;
+}
+
+.content .input:hover {
+    /*输入框鼠标悬浮变色*/
+    border-color: #999 transparent #B3B3B3 #999;
+}
+
+.content .input:focus {
+    /*输入框聚焦变色*/
+    border-color: #4791FF transparent #4791FF #4791FF;
+}
+
+.content .btn {
+    width: 100px;
+    height: 36px;
+    background: #3385FF;
+    color: white;
+    font-size: 15px;
+    /*文字大小*/
+    letter-spacing: 1px;
+    /*文字间隙*/
+    overflow: hidden;
+    /*隐藏多余*/
+    cursor: pointer;
+    /*光标变手*/
+    border: 1px solid #2D78F4;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.content .btn:hover {
+    /* 百度一下 鼠标悬浮变色*/
+    background-color: #317EF3;
+}
+
+.footer a {
+    color: #9a9a9a;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.footer p a {
+    color: #666;
+}
+
+.footer p a:hover {
+    color: #666;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper2 {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1459935434');
+    /* IE9*/
+    src: url('iconfont.eot?t=1459935434#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff?t=1459935434') format('woff'), /* chrome, firefox */
+    url('iconfont.ttf?t=1459935434') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont.svg?t=1459935434#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dianying:before {
+    content: "\e60a";
+}
+
+.icon-nuo:before {
+    content: "\e602";
+}
+
+.icon-waimai:before {
+    content: "\e65b";
+}
+
+.icon-dache:before {
+    content: "\e60f";
+}
+
+.icon-jiudian:before {
+    content: "\e638";
+}
+
+.icon-meishi01:before {
+    content: "\e601";
+}
+
+.icon-microphone:before {
+    content: "\e66b";
+}
+
+.icon-chongzhi:before {
+    content: "\e618";
+}
+
+@font-face {
+    font-family: "iconfont2";
+    src: url('iconfont2.eot?t=1459935921');
+    /* IE9*/
+    src: url('iconfont2.eot?t=1459935921#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont2.woff?t=1459935921') format('woff'), /* chrome, firefox */
+    url('iconfont2.ttf?t=1459935921') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont2.svg?t=1459935921#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont2 {
+    font-family: "iconfont2" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    float: left;
+}
+
+.icon-nuo:before {
+    content: "\e602";
+    background: #b493db;
+}
+
+.icon-xinwen:before {
+    content: "\e60b";
+
+}
+
+.icon-xiaoshuo:before {
+    content: "\e6c7";
+}
+
+.icon-shipin:before {
+    content: "\e606";
+}
+
+.icon-ditu:before {
+    content: "\e608";
+}
+
+.icon-weibiaoti1:before {
+    content: "\e61d";
+}
+
+.wrapper2 {
+    position: relative;
+    height: 100%;
+    background: #eeeff0;
+    margin: auto;
+    min-width: 500px;
+    
+}
+.mobileheader{
+    height: 31px;
+    width: 370px;
+    background: url(images/header.png);
+    margin: auto;
+}
+
+.mobilecontent {
+    width: 500px;
+    height: 600px;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    margin: auto;
+}
+
+.mobilecontent .search-form {
+    position: relative;
+    height: 191px;
+   
+}
+
+.logo{
+    margin: 0 0 20px 0;
+}
+/*设置div大小定位*/
+
+.mobilecontent .input {
+    width: 310px;
+    height: 36px;
+    border: 1px solid #DDD;
+    padding: 3px 0 3px 7px;
+    border-right-width: 0;
+    vertical-align: middle;
+}
+
+.mobilecontent .input:hover {
+    /*输入框鼠标悬浮变色*/
+    border-color: #999 transparent #B3B3B3 #999;
+}
+
+.mobilecontent .input:focus {
+    /*输入框聚焦变色*/
+    border-color: #4791FF transparent #4791FF #4791FF;
+}
+
+.mobilecontent .btn {
+    width: 82px;
+    height: 44px;
+    background: #3385FF;
+    color: white;
+    font-size: 15px;
+    /*文字大小*/
+    letter-spacing: 1px;
+    /*文字间隙*/
+    overflow: hidden;
+    /*隐藏多余*/
+    cursor: pointer;
+    /*光标变手*/
+    border: 1px solid #2D78F4;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.mobilecontent .btn:hover {
+    /* 百度一下 鼠标悬浮变色*/
+    background-color: #317EF3;
+}
+
+.link {
+    float: left;
+    font-size: 16px;
+    position: relative;
+    margin: 10px 0 20px 75px;
+    /*font-weight: bold;加粗*/
+}
+
+.link a {
+    font-size: 14px;
+    text-decoration: none; /*取消链接下划线*/
+    color: #666;
+    margin: 0 15px auto;
+}
+.always{
+    position: relative;
+    width: 398px;
+    height: 140px;
+    margin: 20px auto;
+    background: #fff;
+    
+}
+.alwaystitle{
+    margin: 0 0 0 3px;
+    text-align: left;
+}
+.alwaystitle h2{
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+
+}
+.always a{
+    font-size: 14px;
+    float: left;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 6px;
+    width: 25%;
+    height: 42px;
+    line-height: 42px;
+    color:#262626;
+    text-decoration: none;
+}
+
+
+
+.hotnews{
+    position: relative;
+    width: 398px;
+    height: 200px;
+    background: #fff;
+    margin: auto;
+
+}
+.hotnews h2{
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+}
+.hotnews a{
+    font-size: 14px;
+    float: left;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 6px;
+    width: 50%;
+    height: 42px;
+    line-height: 42px;
+    color:#262626;
+    text-decoration: none;
+
+}
+    
+.mobilefooter{
+    position: relative;
+    width: 398px;
+    height:200px;
+    margin: 140px auto;
+
+}
+.extension{
+    width: 398px;
+    
+}
+.extension a{
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    line-height: 30px;
+
+}
+
+
+.about a {
+    color: #9a9a9a;
+}
+
+.about {
+    width: 398px;
+    position: relative;
+    margin:10px auto; 
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.about p a {
+    color: #666;
+}
+
+.about p a:hover {
+    color: #666;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.login{
+	width: 604px;
+	height: 355px;
+	background: #F5F5F5 url(../images/1869559_130427039.jpg) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -177px 0 0 -302px;
+}
+.mystyle{
+	position: relative;
+	top:10%;
+	left: 10%;
+}
+h2{
+	position: relative;
+	top: 10%;
+	left: 10%;
+
+}
